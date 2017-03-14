@@ -35,4 +35,8 @@ var myName = "String";
  * It should also have a name attribute with the value of 'Spot'
  */
 
-var dog = {};
+var dog = {"bark": function() {
+  console.log("Bark!");
+}
+
+};
