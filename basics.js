@@ -7,11 +7,13 @@ var myName = "String";
  * as well as an `age` (number);
  */
 
- var person = {"name":"String"};
+ var person = {"name":"String", "age":9};
 
 /* Create a variable called `canDrive`,
  * if it should be true if your person object is at least 16 years old
  */
+
+ var canDrive = false;
 
 /* Create a function called `greet`,
  * it should take a 1 parameter, `name`
