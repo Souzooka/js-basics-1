@@ -7,7 +7,10 @@ var myName = "String";
  * as well as an `age` (number);
  */
 
- var person = {"name":"String", "age":9};
+ var person = {
+    "name": "String",
+    "age": 9
+ };
 
 /* Create a variable called `canDrive`,
  * if it should be true if your person object is at least 16 years old
@@ -36,10 +39,8 @@ var myName = "String";
  */
 
 var dog = {
-
   "bark": function() {
     console.log("Bark!");
   },
-  "name":"Spot"
-
+  "name":" Spot"
 };
