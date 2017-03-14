@@ -28,6 +28,8 @@ var myName = "String";
  * (there are 6 different data types);
  */
 
+ var dataTypes = [null, undefined, 9, true, "9", [9]];
+
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
